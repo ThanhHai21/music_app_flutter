@@ -29,7 +29,7 @@ To get started with the Spotify_Flutter project, follow these steps:
 
 ### Clone the repository:
 
-- git clone https://github.com/yourusername/spotify_flutter.git
+- git clone https://github.com/ThanhHai21/music_app_flutter.git
 
 ### Navigate to the project directory:
 - cd spotify_flutter
