@@ -17,15 +17,15 @@
 
 ## Technology Stack
 
-Flutter: The core framework for building the app.
-Dart: The programming language used in Flutter.
-Bloc Pattern: For state management.
-Clean Architecture: For structuring the codebase.
-Firebase: For backend services.
+- Flutter: The core framework for building the app.
+- Dart: The programming language used in Flutter.
+- Bloc Pattern: For state management.
+- Clean Architecture: For structuring the codebase.
+- Firebase: For backend services.
 
 ## Getting Started
 
-To get started with the Spotify_Flutter project, follow these steps:
+-To get started with the Spotify_Flutter project, follow these steps:
 
 ### Clone the repository:
 
