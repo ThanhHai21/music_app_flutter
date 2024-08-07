@@ -25,7 +25,7 @@
 
 ## Getting Started
 
--To get started with the Spotify_Flutter project, follow these steps:
+- To get started with the Spotify_Flutter project, follow these steps:
 
 ### Clone the repository:
 
