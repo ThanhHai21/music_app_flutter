@@ -6,6 +6,8 @@ import 'package:spotify_flutter/common/widgets/appbar/basic_appbar.dart';
 import 'package:spotify_flutter/common/widgets/button/basic_app_button.dart';
 import 'package:spotify_flutter/core/configs/assets/app_images.dart';
 import 'package:spotify_flutter/core/configs/assets/app_vectors.dart';
+import 'package:spotify_flutter/presentation/auth/pages/signin.dart';
+import 'package:spotify_flutter/presentation/auth/pages/signup.dart';
 
 class SignupOrSigninPage extends StatelessWidget {
   const SignupOrSigninPage({super.key});
@@ -46,11 +48,11 @@ class SignupOrSigninPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 20),
                 const Text(
-                  'Spotify is a proprietary Swedish audio streaming and media services provider ',
+                  'Spotify is a proprietary Swedish audio streaming and media services provider',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontWeight: FontWeight.w500,
-                    fontSize: 16,
+                    fontSize: 14,
                     color: Colors.grey,
                   ),
                 ),
@@ -61,13 +63,23 @@ class SignupOrSigninPage extends StatelessWidget {
                       child: BasicAppButton(
                         title: 'Register',
                         height: 70,
-                        onPressed: () {},
+                        onPressed: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const SignupPage(),
+                          ),
+                        ),
                       ),
                     ),
                     const SizedBox(width: 20),
                     Expanded(
                       child: TextButton(
-                        onPressed: () {},
+                        onPressed: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const SigninPage(),
+                          ),
+                        ),
                         child: Text(
                           'Sign in',
                           style: TextStyle(
